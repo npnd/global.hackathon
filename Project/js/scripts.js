@@ -41,115 +41,91 @@ var tosdrReference = {
       "score": 60,
       "tldr": "This service uses cookies to track you even if you are not interacting with them directly. The company may track your device and serve targeted advertisements on other websites. They obtain certain types of information when your Web browser accesses their website or advertisements and other content served by or on behalf of the company."
 	  },
-  "targeted third-party advertising": {
+  "targeted third-party advertising": { //
       "binding": true,
       "point": "bad",
       "score": 30,
-      "tldr": "Although the company does not share your personal informaton to advertiers and other third-parties that display the company's ads, by default they enable third-party advertises to target you (IP, cookies or \u201cother features\u201d). However, you <a href=\"http:\/\/www.the company.com\/gp\/dra\/info\">can opt-out<\/a>."
+      "tldr": "Although the company does not share your personal informaton to advertiers and other third-parties that display the company's ads, by default they enable third-party advertises to target you (IP, cookies or \u201cother features\u201d). However, you can opt-out."
 	  },
-  "user needs to check tosback.org": {
+  "user needs to check tosback.org": { //
       "binding": true,
       "point": "bad",
       "score": 70,
       "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
-  "only for your individual and non-commercial use": {
+  "only for your individual and non-commercial use": { //
       "binding": true,
       "point": "bad",
       "score": 25,
       "tldr": "Your use of the service is restricted with \u201ca limited license to access, share, tag and save to your Account any Member Content (including another Member's public \u201cbookmarks\u201d) for your <strong>personal and non-commercial use<\/strong>\u201d."
 	  },
-  "no right to leave the service": {
+  "no right to leave the service": { //
       "binding": true,
       "point": "blocker",
       "score": 70,
       "tldr": "Even if you terminate your account, the company \u201cmay retain an archived copy for legitimate business purposes\u201d. The copyright license does not end."
 	  },
-  "sets third-party cookies and\/or ads": {
+  "sets third-party cookies and\/or ads": { //
       "binding": true,
       "point": "bad",
       "score": 10,
-      "tldr": "Data collected with cookies is kept for an undefined period of time. Also, the company's Third party advertisers may also place or read cookies on your browser.\u201d"
+      "tldr": "Data collected with cookies is kept for an undefined period of time. Also, the company's third-party advertisers may also place or read cookies on your browser."
 	  },
-  "broad license including right to distribute through any media": {
+  "broad license including right to distribute through any media": { //
       "binding": true,
       "point": "bad",
       "score": 100,
-      "tldr": "The copyright license granted to the company is not limited to operating the service. Your content can be exploited \u201cin any and all media or distribution channels (now known or hereafter created)\u201d i.e. it can be distributed by the company outside the the company service."
+      "tldr": "The copyright license granted to the company is not limited to operating the service. Your content can be exploited \"in any and all media or distribution channels (now known or hereafter created)\" i.e. it can be distributed by the company outside the the company service."
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
-  "no pseudonym allowed (relevant for billing)": {
+  "no pseudonym allowed (relevant for billing)": { //
       "binding": true,
       "point": "neutral",
       "score": 0,
       "tldr": "When registering for the company and creating your username and password, you must provide true, accurate, current, and complete information. This includes a real name."
 	  },
-  "refund policy": {
+  "refund policy": { //
+       "binding": true,
+      "point": "good",
+      "score": 30,
+      "tldr": "If availability levels are not met during any month of the Terms of the Agreement, users will be entitled to a refund of fees, ranging from 10% of the fee to 100%."
+	  },
+  "you cannot share screenshots of your admin panel": { //
+      "binding": true,
+      "point": "neutral",
+      "score": 10,
+      "tldr": "Users are not allowed to distribute or disclose the platform to third parties. This includes, but isn't limited to,  displaying the platform."
+	  },
+  "only aggregate data is given to third parties": { //
+      "binding": true,
+      "point": "neutral",
+      "score": 10,
+      "tldr": "The company collects information to improve and maintain their services. This aggregate data doesn't identify users personally, but the company may share it with their partners and other third parties. In addition, the company uses cookie technology to collect information from your visit to their site, such as IP addresses, Internet service provider, etc."
+	  },
+  "your private content may be accessed by staff": { //
+      "binding": true,
+      "point": "neutral",
+      "score": 30,
+      "tldr": "In order to monitor system performance, test and fix systems, and develop and implement upgrades, technical staff will be temporarily allowed access to data. Any copies of this data are created out of necessity to perform these tasks, and are kept only for the time relevant to these processes."
+	  },
+  "liability limited to fees you paid": { //
+      "binding": true,
+      "point": "neutral",
+      "score": 10,
+      "tldr": "The company's liability won't exceed the fees from the last 12 months immediately preceding the date of a claim. The sole remedy of a claim is for the company to use commercially reasonable efforts to correct the error, omission or cessation."
+	  },
+  "they provide a way to export your data": { //
       "binding": true,
       "point": "good",
       "score": 30,
-      "tldr": "If availability levels are not met during any month of the Terms of the Agreement, users will be entitled to a refund of the applicable fee, ranging from 10% of the fee to 100%."
+      "tldr": "In the event of termination, the company will provide you with a copy of your data in an open format."
 	  },
-  "you cannot share screenshots of your admin panel": {
-      "binding": true,
-      "point": "neutral",
-      "score": 10,
-      "tldr": "Users are not allowed to distribute or disclose the Hosting Platform to third parties. This includes, but isn't limited to,  displaying the Hosting Platform."
-	  },
-  "only aggregate data is given to third parties": {
-      "binding": true,
-      "point": "neutral",
-      "score": 10,
-      "tldr": "The company collects information to improve and maintain their services. This aggregate data doesn't identify users personally, but they may share it with their partners and other third parties. In addition, they use cookie technology to collect information from your visit to their site, such as IP addresses, Internet service provider, etc."
-	  },
-  "your private content may be accessed by staff": {
-      "binding": true,
-      "point": "neutral",
-      "score": 30,
-      "tldr": "In order to monitor system performance, test and fix systems, and develop and implement upgrades, technical staff will be temporarily allowed access to hosted data. Any copies of this data are created out of necessity to perform these tasks, and are kept only for the time relevant to these processes."
-	  },
-  "liability limited to fees you paid": {
-      "binding": true,
-      "point": "neutral",
-      "score": 10,
-      "tldr": "The company's liability won't exceed the fees from the last 12 months immediately preceding the date of a claim. They go on to say that the sole remedy of a claim is for the company to use commercially reasonable efforts to correct the error, omission or cessation."
-	  },
-  "sets third-party cookies and\/or ads": {
-      "binding": true,
-      "point": "bad",
-      "score": 10,
-      "tldr": "We may share Other Information about your activity on the Website with third parties for the purpose of tailoring, analyzing, managing, reporting, and optimizing advertising you see on the Website and elsewhere. These third parties may use cookies, pixel tags (also called web beacons or clear gifs), and\/or other technologies to collect such Other Information for such purposes. Pixel tags enable us and these third-party advertisers to recognize a browser\u2019s cookie when a browser visits the site on which the pixel tag is located in order to learn which advertisement brings a user to a given site."
-	  },
-  "they provide a way to export your data": {
-      "binding": true,
-      "point": "good",
-      "score": 30,
-      "tldr": "In the event of termination, and upon a written request which can be in the form of an email, the company will provide you with a copy of your data in an open format. However, Subscribers are liable for any bandwidth costs associated with the archiving\/exporting process."
-	  },
-  "you publish under a free license, not a bilateral one": {
+  "you publish under a free license, not a bilateral one": { //
       "binding": true,
       "point": "good",
       "score": 90,
-      "tldr": "Users retain ownership of all of their data, including design documents. This includes, without limitation, proprietary rights. the company doesn't have any right to copy, transfer, sell, disclose, license, alter, or otherwise use user data for any purpose."
+      "tldr": "Users retain ownership of all of their data, including design documents. This includes, without limitation, proprietary rights. The company doesn't have any right to copy, transfer, sell, disclose, license, alter, or otherwise use user data for any purpose."
 	  },
-  "age limit": {
+  "age limit": { //
       "binding": true,
       "point": "neutral",
       "score": 15,
@@ -160,12 +136,6 @@ var tosdrReference = {
       "point": "bad",
       "score": 30,
       "tldr": "The company isn't liable for any unauthorized access or use of your account. This means that you are responsible for maintaining the confidentiality of your username and password."
-	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
 	  },
   "promotional communications are opt-out": {
       "binding": true,
@@ -231,13 +201,13 @@ var tosdrReference = {
       "binding": true,
       "point": "good",
       "score": 10,
-      "tldr": "Facebook gives you an opportunity to comment on changes. <em>(In 2012, Facebook <a href=\"https:\/\/github.com\/tosdr\/tosback2\/commit\/768ec27f8f8e0ce4e3de4cd7e8356f221b037758?diff=split#diff-a46e598d293b63dc57f2aa089ce7762eL194\">changed their terms of service<\/a>. Before that, you could also vote against the changes (even though the results were <strong>not binding<\/strong> unless 30% of the active users voted). Now, there is no vote any more.)<\/em>"
+      "tldr": "The company gives you an opportunity to comment on changes. <em>(In 2012, the company <a href=\"https:\/\/github.com\/tosdr\/tosback2\/commit\/768ec27f8f8e0ce4e3de4cd7e8356f221b037758?diff=split#diff-a46e598d293b63dc57f2aa089ce7762eL194\">changed their terms of service<\/a>. Before that, you could also vote against the changes (even though the results were <strong>not binding<\/strong> unless 30% of the active users voted). Now, there is no vote any more.)<\/em>"
 	  },
   "very broad": {
       "binding": true,
       "point": "bad",
       "score": 80,
-      "tldr": "The copyright license that you grant to Facebook goes <strong>beyond the requirements<\/strong> for operating the service. For instance, it includes the right for Facebook to transfer the license or to license it others on their terms (\u201csublicense\u201d). Also, the copyright license <strong>does not end when you stop using the service<\/strong> unless your content has been deleted by everyone else."
+      "tldr": "The copyright license that you grant to the company goes <strong>beyond the requirements<\/strong> for operating the service. For instance, it includes the right for the company to transfer the license or to license it others on their terms (\u201csublicense\u201d). Also, the copyright license <strong>does not end when you stop using the service<\/strong> unless your content has been deleted by everyone else."
 	  },
   "pseudonym not allowed (not because of user-to-user trust)": {
       "binding": true,
@@ -249,7 +219,7 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 50,
-      "tldr": "Facebook automatically shares your information with Bing, Pandora, \nTripAdvisor, Yelp, Rotten Tomatoes, Clicker, Scribd, and Docs, unless \nyou manually opt-out."
+      "tldr": "The company automatically shares your information with Bing, Pandora, \nTripAdvisor, Yelp, Rotten Tomatoes, Clicker, Scribd, and Docs, unless \nyou manually opt-out."
 	  },
   "you can choose the copyright license": {
       "binding": true,
@@ -286,12 +256,6 @@ var tosdrReference = {
       "point": "neutral",
       "score": 0,
       "tldr": "\u201cThe laws of California, U.S.A., excluding California\u2019s conflict of laws rules, will apply to any disputes arising out of or relating to these terms or the Services.All claims arising out of or relating to these terms or the Services will be litigated exclusively in the federal or state courts of Santa Clara County, California, USA, and you and Google consent to personal jurisdiction in those courts.\u201d"
-	  },
-  "they provide a way to export your data": {
-      "binding": true,
-      "point": "good",
-      "score": 30,
-      "tldr": "Google gives you reasonable advance notice when a service is discontinued and \u201ca chance to get information out of that Service.\u201d"
 	  },
   "third-party access without a warrant": {
       "binding": true,
@@ -347,12 +311,6 @@ var tosdrReference = {
       "score": 30,
       "tldr": "Grammarly restricts your use to 100 documents\/50,000 words within a 24-hr period and 300 documents\/150,000 words per month."
 	  },
-  "liability limited to fees you paid": {
-      "binding": true,
-      "point": "neutral",
-      "score": 10,
-      "tldr": "Grammarly isn't liable in any event regarding the Site, Services, and\/or Software for any amount in the aggregate in excess of fees you have actually paid to Grammarly during the 12 month period immediately before the event that gave rise to such liability."
-	  },
   "info given about security practices": {
       "binding": true,
       "point": "good",
@@ -365,12 +323,6 @@ var tosdrReference = {
       "score": 20,
       "tldr": "\u201cWe transfer information about you if GitHub is acquired by or merged with another company. In this event, GitHub will notify you before information about you is transferred and becomes subject to a different privacy policy. \u201d"
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "\u201cGitHub reserves the right to update and change the Terms of Service from time to time without notice.\u201d Fortunately, the privacy policy benefits from a special clause: changes to the privacy policy will be notified to you, but there is no delay."
-	  },
   "defend, indemnify, hold harmless": {
       "binding": true,
       "point": "bad",
@@ -382,12 +334,6 @@ var tosdrReference = {
       "point": "neutral",
       "score": 10,
       "tldr": "GitHub requires cookies to work and misleads you to believe that you remain anonymous while cookies contain \u201cunique identifiers\u201d. However, only session cookies are used, not persistent cookies."
-	  },
-  "you publish under a free license, not a bilateral one": {
-      "binding": true,
-      "point": "good",
-      "score": 90,
-      "tldr": "\u201cWe claim no intellectual property rights over the material you provide to the Service. Your profile and materials uploaded remain yours. However, by setting [\u2026] your repositories to be viewed publicly, you agree to allow others to view and fork your repositories.\u201d "
 	  },
   "court of law is in location X": {
       "binding": true,
@@ -419,12 +365,6 @@ var tosdrReference = {
       "score": 0,
       "tldr": "\u201cThe laws of California, U.S.A., excluding California\u2019s conflict of laws rules, will apply to any disputes arising out of or relating to these terms or the Services.All claims arising out of or relating to these terms or the Services will be litigated exclusively in the federal or state courts of Santa Clara County, California, USA, and you and Google consent to personal jurisdiction in those courts.\u201d"
 	  },
-  "they provide a way to export your data": {
-      "binding": true,
-      "point": "good",
-      "score": 30,
-      "tldr": "Google gives you reasonable advance notice when a service is discontinued and \u201ca chance to get information out of that Service.\u201d"
-	  },
   "third-party access without a warrant": {
       "binding": true,
       "point": "bad",
@@ -455,12 +395,6 @@ var tosdrReference = {
       "score": 100,
       "tldr": "Google collects a lot of information about the services you use and how you use them, including when you visit a website using a service for advertisement. In the past, Google stated in their Privacy Policy: <em>\u201cWe strike a reasonable balance between the competing pressures we face, such as the privacy of our users, the security of our systems and the need for innovation. We believe anonymizing IP addresses after 9 months and cookies in our search engine logs after 18 months strikes the right balance\u201d<\/em>. Today, these limitations of time are gone from the Privacy Policy, although <a href=\"http:\/\/support.google.com\/accounts\/bin\/answer.py?hl=en&answer=162743\">some pages<\/a> still acknowledge this. So we must conclude that Google has decided to stop trying to find the right balance between privacy of users and their own needs."
 	  },
-  "no right to leave the service": {
-      "binding": true,
-      "point": "blocker",
-      "score": 70,
-      "tldr": "It is impossible to delete your account from this service, according to the <a href='http:\/\/www.accountkiller.com\/en\/Blacklist'>AccountKiller blacklist<\/a>."
-	  },
   "user is notified a week or more in advance": {
       "binding": true,
       "point": "good",
@@ -478,24 +412,6 @@ var tosdrReference = {
       "point": "bad",
       "score": 50,
       "tldr": "a binding arbitration clause and class action waiver that affects how disputes with the company will be resolved in the United States. This clause governs many of the company's online services - including your the company account and many of their online products and services for consumers, such as Hotmail, SkyDrive, Bing, MSN, Office.com, Windows Live Messenger, Windows Photo Gallery, Windows Movie Maker, Windows Mail Desktop, and Windows Writer."
-	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
-  "only aggregate data is given to third parties": {
-      "binding": true,
-      "point": "neutral",
-      "score": 10,
-      "tldr": "Non-personal information is information that does not permit direct association with you. We may collect, use, transfer and disclose non-personal information for any purpose.\n...\nWe also provide analysis of our users in the aggregate or otherwise in anonymous form to prospective partners, advertisers and other third parties."
-	  },
-  "targeted third-party advertising": {
-      "binding": true,
-      "point": "bad",
-      "score": 30,
-      "tldr": "We keep track of your interactions with us and collect information related to you and your use of our service, including but not limited to your online activity, title selections, reviews and ratings, payment history and correspondence as well as Internet protocol addresses, device types, unique device data, such as device identifiers, operating systems, any instant watching of movies, TV shows and related activity. We use this information for such purposes as (list of stuff necessary for running the service).\n...\nFrom time to time, we may partner with companies whose products we believe will interest our members. In conjunction with these partners, we may send promotional announcements and\/or serve web-based advertisements on their behalf, as permitted by law. You can go to the \"Manage mailing preferences\" link on the \"Your Account\" page and request that your name be excluded from marketing emails or postal mail."
 	  },
   "no promise to inform\/notify": {
       "binding": true,
@@ -515,23 +431,11 @@ var tosdrReference = {
       "score": 10,
       "tldr": "This is probably more of a functional issue than a privacy issue.\nThe Help portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether. If your browser is set to not accept any cookies, you will not be able to use the Netflix service or website."
 	  },
-  "sets third-party cookies and\/or ads": {
-      "binding": true,
-      "point": "bad",
-      "score": 10,
-      "tldr": "We use third-party advertising companies to serve ads. These companies may use information about your visits to this and other Web sites in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies click here ."
-	  },
   "no liability for unauthorized access": {
       "binding": true,
       "point": "bad",
       "score": 30,
       "tldr": "Unfortunately, no security system can be guaranteed to be 100% secure. Accordingly, we cannot guarantee the security of your information and cannot assume liability for improper access to it."
-	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
 	  },
   "personal data is not sold": {
       "binding": true,
@@ -539,35 +443,11 @@ var tosdrReference = {
       "score": 25,
       "tldr": "We do not sell, trade, or rent \nUsers personal identification information to others."
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
   "they can suspend your account for several reasons": {
       "binding": true,
       "point": "neutral",
       "score": 15,
       "tldr": "If we get \nabuse information concerning any files hosted on OwnCube, we will \ninform the corresponding user about it and give him\/her the \nopportunity to remove the relevant data IMMEDIATELY. If the files are \nnot removed within ONE day, we claim the right to remove the user's \naccount."
-	  },
-  "no right to leave the service": {
-      "binding": true,
-      "point": "blocker",
-      "score": 70,
-      "tldr": "It is impossible to delete your account from this service, according to the <a href='http:\/\/www.accountkiller.com\/en\/Blacklist'>AccountKiller blacklist<\/a>."
-	  },
-  "no right to leave the service": {
-      "binding": true,
-      "point": "blocker",
-      "score": 70,
-      "tldr": "It is impossible to delete your account from this service, according to the <a href='http:\/\/www.accountkiller.com\/en\/Blacklist'>AccountKiller blacklist<\/a>."
-	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
 	  },
   "user is notified a month or more in advance": {
       "binding": true,
@@ -719,12 +599,6 @@ var tosdrReference = {
       "score": 80,
       "tldr": "The company widgets on third-party websites collect <a href='https:\/\/support.twitter.com\/articles\/20169421#' title='Tailored Suggestions'>data about you<\/a>. The data is kept a maximum of 10 days. Also, <strong>you can opt-out completely<\/strong> by enabling \u201cDo-Not-Track\u201d. <a href='https:\/\/support.twitter.com\/groups\/33-report-abuse-or-policy-violations\/topics\/148-policy-information\/articles\/20169453-twitter-supports-do-not-track#'>See how<\/a>."
 	  },
-  "sets third-party cookies and\/or ads": {
-      "binding": true,
-      "point": "bad",
-      "score": 10,
-      "tldr": "The company uses third-party services that may collect your information, using cookies for instance. the company uses Google Analytics."
-	  },
   "archives provided": {
       "binding": true,
       "point": "good",
@@ -815,12 +689,6 @@ var tosdrReference = {
       "score": 10,
       "tldr": "You are solely responsible for your content and the consequences of its publication, and solely responsible for keeping you account password secure. the company is not liable for any unauthorized use of your account, but you may be liable if this unauthorized use causes losses for the company or the others. "
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
   "deleted content is not really deleted": {
       "binding": true,
       "point": "blocker",
@@ -845,12 +713,6 @@ var tosdrReference = {
       "score": 80,
       "tldr": "The copyright license granted to Yahoo \u201cWith respect to Content you submit or make available for inclusion on publicly accessible areas of Yahoo! Groups, the license to use, distribute, reproduce, modify, adapt, publicly perform and publicly display such Content on the Yahoo! Services solely for the purposes of providing and promoting the specific Yahoo! Group to which such Content was submitted or made available. This license exists only for as long as you elect to continue to include such Content on the Yahoo! Services and will terminate at the time you remove or Yahoo! removes such Content from the Yahoo! Services.\u201d "
 	  },
-  "user needs to check tosback.org": {
-      "binding": true,
-      "point": "bad",
-      "score": 70,
-      "tldr": "They can change the terms of service any time they see fit, even without notification to the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
-	  },
   "pseudonym not allowed (not because of user-to-user trust)": {
       "binding": true,
       "point": "bad",
@@ -862,12 +724,6 @@ var tosdrReference = {
       "point": "neutral",
       "score": 15,
       "tldr": "\u201cSection 15: Termination \u2026 You agree that Yahoo! may, without prior notice, immediately terminate, limit your access to or suspend your Yahoo! account, any associated email address, and access to the Yahoo! Services. Cause for such termination, limitation of access or suspension shall include, but not be limited to, (a) breaches or violations of the TOS or other incorporated agreements or guidelines, (b)requests by law enforcement or other government agencies, (c) discontinuance or material modification to the Yahoo! Services (or any part thereof), (d) unexpected technical or security issues or problems, (e) extended periods of inactivity, (f) engagement by you in fraudulent or illegal activities, and\/or (g) nonpayment of any fees owed by you in connection with the Yahoo! Services. Further, you agree that all terminations, limitations of access and suspensions for cause shall be made in Yahoo!'s sole discretion and that Yahoo! shall not be liable to you or any third party for any termination of your account, any associated email address, or access to the Yahoo! Services.\u201d"
-	  },
-  "no right to leave the service": {
-      "binding": true,
-      "point": "blocker",
-      "score": 70,
-      "tldr": "It is impossible to delete your account from this service, according to the <a href='http:\/\/www.accountkiller.com\/en\/Blacklist'>AccountKiller blacklist<\/a>."
 	  }
 	};
 
