@@ -855,8 +855,9 @@ var tos = getParam('search');
 			var $f = $(this).find('.feedback-overlay');
 			$('.up',$f).on('click',function(e){ 
 				e.preventDefault();
+				$('.down',$f).removeClass('on');
 				$(this).animate({opacity:0},0,function(){
-					$(this).animate({opacity:1},500);
+					$(this).animate({opacity:1},500).addClass('on');
 				});
 				var curFeedback = parseInt($r.data('feedback'));
 				$r.data('feedback',curFeedback+1);
@@ -864,8 +865,9 @@ var tos = getParam('search');
 			});
 			$('.down',$f).on('click',function(e){
 				e.preventDefault();
+				$('.up',$f).removeClass('on');
 				$(this).animate({opacity:0},0,function(){
-					$(this).animate({opacity:1},500);
+					$(this).animate({opacity:1},500).addClass('on');
 				});
 				var curFeedback = parseInt($r.data('feedback'));
 				$r.data('feedback',curFeedback-1);
