@@ -821,7 +821,7 @@ var tos = getParam('search');
 			// Submit to Sprint.ly
 			$.ajax({
 				type: 'POST',
-				url: 'https://d84f311f-619fec6b2bb0.my.apitools.com/',
+				url: 'https://sprint.ly/api/products/26087/items.json',
 				data: {
 					type: 'defect',
 					title: 'User Feedback '+Date.now(),
