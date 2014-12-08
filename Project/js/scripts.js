@@ -23,23 +23,23 @@ var tosdrReference = {
       "score": 40,
       "tldr": "You cannot hold the company responsible for any claim or demand in law which you ever had, or may have. You agree to indemnify them for all claims related to your content or your account, including for any person using your username and password."
 	  },
-  "only for your individual use": {
+  "only for your individual use": { //
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "\u201cAccounts may not be opened by galleries, agents and other market intermediaries and entities who represent photographers and graphic artists or sell their works.\u201d"
+      "tldr": "Accounts may not be opened by companies, agents and other market intermediaries and entities who represent individuals."
 	  },
-  "may sell your data in merger": {
+  "may sell your data in merger": { //
       "binding": true,
       "point": "bad",
       "score": 20,
-      "tldr": "The company may sell user data as part of a business transfer"
+      "tldr": "The company may sell user data as part of a business transfer."
 	  },
-  "tracks you on other websites": {
+  "tracks you on other websites": { //
       "binding": true,
       "point": "bad",
       "score": 60,
-      "tldr": "This service uses cookies to track you even if you are not interacting with them directly. the company for instance, use <a href=\"http:\/\/www.the company.com\/gp\/help\/customer\/display.html\/ref=hp_468496_cookies?nodeId=468496&amp;#cookies\">cookies<\/a> to track your device and serve targeted advertisements on other websites (the company associates, websites using the company Checkout). They \u201cobtain certain types of information when your Web browser accesses the company.com or advertisements and other content served by or on behalf of the company.com on other Web sites\u201d."
+      "tldr": "This service uses cookies to track you even if you are not interacting with them directly. The company may track your device and serve targeted advertisements on other websites. They obtain certain types of information when your Web browser accesses their website or advertisements and other content served by or on behalf of the company."
 	  },
   "targeted third-party advertising": {
       "binding": true,
@@ -75,25 +75,19 @@ var tosdrReference = {
       "binding": true,
       "point": "blocker",
       "score": 70,
-      "tldr": "Even if you terminate your account, Delicious \u201cmay retain an archived copy for legitimate business purposes\u201d. The copyright license does not end."
+      "tldr": "Even if you terminate your account, the company \u201cmay retain an archived copy for legitimate business purposes\u201d. The copyright license does not end."
 	  },
   "sets third-party cookies and\/or ads": {
       "binding": true,
       "point": "bad",
       "score": 10,
-      "tldr": "Data collected with cookies is kept for an undefined period of time. Also, Delicious' \u201cThird party advertisers may also place or read cookies on your browser.\u201d"
-	  },
-  "may sell your data in merger": {
-      "binding": true,
-      "point": "bad",
-      "score": 20,
-      "tldr": "Delicious \u201cmay sell, transfer or otherwise share some or all of its assets, including your Personal Information, in connection with a merger, acquisition, reorganization or sale of assets or in the event of bankruptcy.\u201d"
+      "tldr": "Data collected with cookies is kept for an undefined period of time. Also, the company's Third party advertisers may also place or read cookies on your browser.\u201d"
 	  },
   "broad license including right to distribute through any media": {
       "binding": true,
       "point": "bad",
       "score": 100,
-      "tldr": "The copyright license granted to Delicious is not limited to operating the service. Your content can be exploited \u201cin any and all media or distribution channels (now known or hereafter created)\u201d i.e. it can be distributed by Delicious outside the Delicious service."
+      "tldr": "The copyright license granted to the company is not limited to operating the service. Your content can be exploited \u201cin any and all media or distribution channels (now known or hereafter created)\u201d i.e. it can be distributed by the company outside the the company service."
 	  },
   "user needs to check tosback.org": {
       "binding": true,
@@ -105,7 +99,7 @@ var tosdrReference = {
       "binding": true,
       "point": "neutral",
       "score": 0,
-      "tldr": "When registering for Cloudant and creating your username and password, you must provide true, accurate, current, and complete information. This includes a real name."
+      "tldr": "When registering for the company and creating your username and password, you must provide true, accurate, current, and complete information. This includes a real name."
 	  },
   "refund policy": {
       "binding": true,
@@ -117,13 +111,13 @@ var tosdrReference = {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "Cloudant users are not allowed to distribute or disclose the Hosting Platform to third parties. This includes, but isn't limited to,  displaying the Hosting Platform."
+      "tldr": "Users are not allowed to distribute or disclose the Hosting Platform to third parties. This includes, but isn't limited to,  displaying the Hosting Platform."
 	  },
   "only aggregate data is given to third parties": {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "Cloudant collects information to improve and maintain their services. This aggregate data doesn't identify users personally, but they may share it with their partners and other third parties. In addition, they use cookie technology to collect information from your visit to their site, such as IP addresses, Internet service provider, etc."
+      "tldr": "The company collects information to improve and maintain their services. This aggregate data doesn't identify users personally, but they may share it with their partners and other third parties. In addition, they use cookie technology to collect information from your visit to their site, such as IP addresses, Internet service provider, etc."
 	  },
   "your private content may be accessed by staff": {
       "binding": true,
@@ -135,7 +129,7 @@ var tosdrReference = {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "Cloudant's liability won't exceed the fees from the last 12 months immediately preceding the date of a claim. They go on to say that the sole remedy of a claim is for Cloudant to use commercially reasonable efforts to correct the error, omission or cessation."
+      "tldr": "The company's liability won't exceed the fees from the last 12 months immediately preceding the date of a claim. They go on to say that the sole remedy of a claim is for the company to use commercially reasonable efforts to correct the error, omission or cessation."
 	  },
   "sets third-party cookies and\/or ads": {
       "binding": true,
@@ -147,13 +141,13 @@ var tosdrReference = {
       "binding": true,
       "point": "good",
       "score": 30,
-      "tldr": "In the event of termination, and upon a written request which can be in the form of an email, Cloudant will provide you with a copy of your data in an open format. However, Subscribers are liable for any bandwidth costs associated with the archiving\/exporting process."
+      "tldr": "In the event of termination, and upon a written request which can be in the form of an email, the company will provide you with a copy of your data in an open format. However, Subscribers are liable for any bandwidth costs associated with the archiving\/exporting process."
 	  },
   "you publish under a free license, not a bilateral one": {
       "binding": true,
       "point": "good",
       "score": 90,
-      "tldr": "Users retain ownership of all of their data, including design documents. This includes, without limitation, proprietary rights. Cloudant doesn't have any right to copy, transfer, sell, disclose, license, alter, or otherwise use user data for any purpose."
+      "tldr": "Users retain ownership of all of their data, including design documents. This includes, without limitation, proprietary rights. the company doesn't have any right to copy, transfer, sell, disclose, license, alter, or otherwise use user data for any purpose."
 	  },
   "age limit": {
       "binding": true,
@@ -165,7 +159,7 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 30,
-      "tldr": "Cloudant isn't liable for any unauthorized access or use of your account. This means that you are responsible for maintaining the confidentiality of your username and password."
+      "tldr": "The company isn't liable for any unauthorized access or use of your account. This means that you are responsible for maintaining the confidentiality of your username and password."
 	  },
   "user needs to check tosback.org": {
       "binding": true,
@@ -177,13 +171,13 @@ var tosdrReference = {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "You must actively opt-out of any marketing and non-transactional communications you receive from Cloudant by clicking the \"unsubscribe\" link on the bottom of the email. You can't opt-out of receiving emails related to transactions you have with clouding. They also say that it is not always possible to completely remove or modify information in their subscription databases."
+      "tldr": "You must actively opt-out of any marketing and non-transactional communications you receive from the company by clicking the \"unsubscribe\" link on the bottom of the email. You can't opt-out of receiving emails related to transactions you have with clouding. They also say that it is not always possible to completely remove or modify information in their subscription databases."
 	  },
   "no spidering or crawling": {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "Cloudant users are not allowed to use anything to copy or reproduce the Hosting Platform, including using robots, spiders, other automatic processing program, or other manual process. Cloudant users also cannot assist others in doing the above."
+      "tldr": "The company users are not allowed to use anything to copy or reproduce the Hosting Platform, including using robots, spiders, other automatic processing program, or other manual process. the company users also cannot assist others in doing the above."
 	  },
   "limited for purpose of same service": {
       "binding": true,
@@ -191,17 +185,11 @@ var tosdrReference = {
       "score": 80,
       "tldr": "They do not permit any third party or entity access to confidential information, including (without limitation) user subscription data. They only permit third party access as required to provide their services."
 	  },
-  "may sell your data in merger": {
-      "binding": true,
-      "point": "bad",
-      "score": 20,
-      "tldr": "If Cloudant, any of their affiliated companies, their assets, or the assets of their affiliated companies, are acquired by another business, they expect any hosted, personal, and billing information to be transferred (along with their other business assets) to the new business."
-	  },
   "defend, indemnify, hold harmless": {
       "binding": true,
       "point": "bad",
       "score": 60,
-      "tldr": "Subscriber will defend, indemnify, and hold harmless Cloudant and its affiliates, and each of their officers, directors, shareholders and employees from any and all claims, liabilities, costs and expenses (including reasonable attorney\u2019s fees and expert and consulting fees) in connection with (i) any third-party claims that any information and\/or data Subscriber provides to Cloudant for hosting infringes, misappropriates, or violates any third-party patents, copyrights, trade secrets, trademark, contractual, or other intellectual property or proprietary rights, and (ii) any claims arising from or relating to Subscriber\u2019s breach or alleged breach of its representations and warranties hereunder."
+      "tldr": "Subscriber will defend, indemnify, and hold harmless the company and its affiliates, and each of their officers, directors, shareholders and employees from any and all claims, liabilities, costs and expenses (including reasonable attorney\u2019s fees and expert and consulting fees) in connection with (i) any third-party claims that any information and\/or data Subscriber provides to the company for hosting infringes, misappropriates, or violates any third-party patents, copyrights, trade secrets, trademark, contractual, or other intellectual property or proprietary rights, and (ii) any claims arising from or relating to Subscriber\u2019s breach or alleged breach of its representations and warranties hereunder."
 	  },
   "you are responsible for what you publish": {
       "binding": true,
@@ -213,37 +201,31 @@ var tosdrReference = {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "During the time you're a Subscriber to Cloudant's services, they will provide some number of hours of integration coding consulting at no cost if you request them."
+      "tldr": "During the time you're a Subscriber to the company's services, they will provide some number of hours of integration coding consulting at no cost if you request them."
 	  },
   "court of law is in location X": {
       "binding": true,
       "point": "neutral",
       "score": 0,
-      "tldr": "Cloudant's Terms of Service, and any disputes that arise directly or indirectly from them, will be governed by the laws of the State of Massachusetts."
+      "tldr": "The company's Terms of Service, and any disputes that arise directly or indirectly from them, will be governed by the laws of the State of Massachusetts."
 	  },
   "will warn about maintenance": {
       "binding": true,
       "point": "good",
       "score": 30,
-      "tldr": "Cloudant may temporarily suspend the availability of all or part of the Hosting Platform for reasons of public safety, security, maintenance, interoperability of services, data protection, or to perform work that is necessary to keep the service running, or for technical reasons. If emergency maintenance is required, you will be notified immediately."
+      "tldr": "The company may temporarily suspend the availability of all or part of the Hosting Platform for reasons of public safety, security, maintenance, interoperability of services, data protection, or to perform work that is necessary to keep the service running, or for technical reasons. If emergency maintenance is required, you will be notified immediately."
 	  },
   "they give 30 days notice before closing your account": {
       "binding": true,
       "point": "good",
       "score": 15,
-      "tldr": "Although Cloudant reserves the right to restrict, suspend or terminate their TOS and your access to their service at any time for any or no reason, they do give 30 days prior notice. However, they can change your password, username, or unique identifier at any time, for any reason."
+      "tldr": "Although the company reserves the right to restrict, suspend or terminate their TOS and your access to their service at any time for any or no reason, they do give 30 days prior notice. However, they can change your password, username, or unique identifier at any time, for any reason."
 	  },
   "no tracking": {
       "binding": true,
       "point": "good",
       "score": 100,
-      "tldr": "DuckDuckGo doesn't save <em>your<\/em> searches and doesn't send your searches to other sites. No personal information is saved either. No cookies are used by default, but cookies can be saved on your computer for some features (e.g. settings). \u201cWe also save searches, but again, not in a personally identifiable way, as we do not store IP addresses or unique User agent strings. We use aggregate, non-personal search data to improve things like misspellings.\u201d"
-	  },
-  "tracks you on other websites": {
-      "binding": true,
-      "point": "bad",
-      "score": 60,
-      "tldr": "This service uses cookies to track you even if you are not interacting with them directly. the company for instance, use <a href=\"http:\/\/www.the company.com\/gp\/help\/customer\/display.html\/ref=hp_468496_cookies?nodeId=468496&amp;#cookies\">cookies<\/a> to track your device and serve targeted advertisements on other websites (the company associates, websites using the company Checkout). They \u201cobtain certain types of information when your Web browser accesses the company.com or advertisements and other content served by or on behalf of the company.com on other Web sites\u201d."
+      "tldr": "The company doesn't save <em>your<\/em> searches and doesn't send your searches to other sites. No personal information is saved either. No cookies are used by default, but cookies can be saved on your computer for some features (e.g. settings). \u201cWe also save searches, but again, not in a personally identifiable way, as we do not store IP addresses or unique User agent strings. We use aggregate, non-personal search data to improve things like misspellings.\u201d"
 	  },
   "user feedback is invited": {
       "binding": true,
@@ -293,18 +275,6 @@ var tosdrReference = {
       "score": 0,
       "tldr": "\u201cYou can specify whether or not you want your photos to be accessible to the public, accessible to a select few, or private (only you can access them with your Yahoo! ID and password)\u201d"
 	  },
-  "your content stays licensed": {
-      "binding": true,
-      "point": "bad",
-      "score": 25,
-      "tldr": "The license that you grant to Google on content you upload to their services will continue even if you stop using the services. While this makes sense for some services (e.g. Google Maps) this applies by default to all Google services. Otherwise you need to check each service for ways to remove content and for specific clauses that restrict the license in time."
-	  },
-  "tracks you on other websites": {
-      "binding": true,
-      "point": "bad",
-      "score": 60,
-      "tldr": "This service uses cookies to track you even if you are not interacting with them directly. the company for instance, use <a href=\"http:\/\/www.the company.com\/gp\/help\/customer\/display.html\/ref=hp_468496_cookies?nodeId=468496&amp;#cookies\">cookies<\/a> to track your device and serve targeted advertisements on other websites (the company associates, websites using the company Checkout). They \u201cobtain certain types of information when your Web browser accesses the company.com or advertisements and other content served by or on behalf of the company.com on other Web sites\u201d."
-	  },
   "user is notified a week or more in advance": {
       "binding": true,
       "point": "good",
@@ -333,13 +303,7 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 60,
-      "tldr": "The content you post on a particular Google service can be used by Google on other services you may not be aware of."
-	  },
-  "archives provided": {
-      "binding": true,
-      "point": "good",
-      "score": 10,
-      "tldr": "At http:\/\/www.google.com\/intl\/en\/policies\/terms\/archive\/ you can see at least one previous versions of Google's terms"
+      "tldr": "The content you post on a particular service can be used by Google on other services you may not be aware of."
 	  },
   "they may stop providing the service at any time": {
       "binding": true,
@@ -351,13 +315,13 @@ var tosdrReference = {
       "binding": true,
       "point": "good",
       "score": 40,
-      "tldr": "The copyright license you grant is \u201cfor the limited purpose of operating, promoting, and improving\u201d existing and new Google Services. However, please note that the license does not end if you stop using the Google services."
+      "tldr": "The copyright license you grant is \u201cfor the limited purpose of operating, promoting, and improving\u201d existing and new Services. However, please note that the license does not end if you stop using the services."
 	  },
   "logs are kept forever": {
       "binding": true,
       "point": "bad",
       "score": 100,
-      "tldr": "Google collects a lot of information about the services you use and how you use them, including when you visit a website using a Google service for advertisement. In the past, Google stated in their Privacy Policy: <em>\u201cWe strike a reasonable balance between the competing pressures we face, such as the privacy of our users, the security of our systems and the need for innovation. We believe anonymizing IP addresses after 9 months and cookies in our search engine logs after 18 months strikes the right balance\u201d<\/em>. Today, these limitations of time are gone from the Privacy Policy, although <a href=\"http:\/\/support.google.com\/accounts\/bin\/answer.py?hl=en&answer=162743\">some pages<\/a> still acknowledge this. So we must conclude that Google has decided to stop trying to find the right balance between privacy of users and their own needs."
+      "tldr": "Google collects a lot of information about the services you use and how you use them, including when you visit a website using a service for advertisement. In the past, Google stated in their Privacy Policy: <em>\u201cWe strike a reasonable balance between the competing pressures we face, such as the privacy of our users, the security of our systems and the need for innovation. We believe anonymizing IP addresses after 9 months and cookies in our search engine logs after 18 months strikes the right balance\u201d<\/em>. Today, these limitations of time are gone from the Privacy Policy, although <a href=\"http:\/\/support.google.com\/accounts\/bin\/answer.py?hl=en&answer=162743\">some pages<\/a> still acknowledge this. So we must conclude that Google has decided to stop trying to find the right balance between privacy of users and their own needs."
 	  },
   "no promise to inform\/notify": {
       "binding": true,
@@ -370,12 +334,6 @@ var tosdrReference = {
       "point": "bad",
       "score": 20,
       "tldr": "You must sign up for Grammarly's service in order to learn what the different pricing packages are. However, pricing packages as of 15 March 2012 are listed in a support document at: http:\/\/support.grammarly.com\/entries\/21138022-current-grammarly-subscription-plans."
-	  },
-  "may sell your data in merger": {
-      "binding": true,
-      "point": "bad",
-      "score": 20,
-      "tldr": "Grammarly does not inform users before being involved in a merger, sale, or acquisition. They do, however, notify users via email and post a notice on their site regarding any choices you may have regarding your personal information."
 	  },
   "requires first-party cookies": {
       "binding": true,
@@ -449,18 +407,6 @@ var tosdrReference = {
       "score": 60,
       "tldr": "\u201cThe information we collect is used to improve the content of our Web pages and the quality of our service, and is not shared with or sold to other organizations for commercial purposes, except to provide products or services you\u2019ve requested, when we have your permission, [\u2026] GitHub uses collected information for the following general purposes: products and services provision, billing, identification and authentication, services improvement, contact, and research.\u201d"
 	  },
-  "your content stays licensed": {
-      "binding": true,
-      "point": "bad",
-      "score": 25,
-      "tldr": "The license that you grant to Google on content you upload to their services will continue even if you stop using the services. While this makes sense for some services (e.g. Google Maps) this applies by default to all Google services. Otherwise you need to check each service for ways to remove content and for specific clauses that restrict the license in time."
-	  },
-  "tracks you on other websites": {
-      "binding": true,
-      "point": "bad",
-      "score": 60,
-      "tldr": "This service uses cookies to track you even if you are not interacting with them directly. the company for instance, use <a href=\"http:\/\/www.the company.com\/gp\/help\/customer\/display.html\/ref=hp_468496_cookies?nodeId=468496&amp;#cookies\">cookies<\/a> to track your device and serve targeted advertisements on other websites (the company associates, websites using the company Checkout). They \u201cobtain certain types of information when your Web browser accesses the company.com or advertisements and other content served by or on behalf of the company.com on other Web sites\u201d."
-	  },
   "user is notified a week or more in advance": {
       "binding": true,
       "point": "good",
@@ -489,13 +435,7 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 60,
-      "tldr": "The content you post on a particular Google service can be used by Google on other services you may not be aware of."
-	  },
-  "archives provided": {
-      "binding": true,
-      "point": "good",
-      "score": 10,
-      "tldr": "At http:\/\/www.google.com\/intl\/en\/policies\/terms\/archive\/ you can see at least one previous versions of Google's terms"
+      "tldr": "The content you post on a particular service can be used by Google on other services you may not be aware of."
 	  },
   "they may stop providing the service at any time": {
       "binding": true,
@@ -507,13 +447,13 @@ var tosdrReference = {
       "binding": true,
       "point": "good",
       "score": 40,
-      "tldr": "The copyright license you grant is \u201cfor the limited purpose of operating, promoting, and improving\u201d existing and new Google Services. However, please note that the license does not end if you stop using the Google services."
+      "tldr": "The copyright license you grant is \u201cfor the limited purpose of operating, promoting, and improving\u201d existing and new Services. However, please note that the license does not end if you stop using the services."
 	  },
   "logs are kept forever": {
       "binding": true,
       "point": "bad",
       "score": 100,
-      "tldr": "Google collects a lot of information about the services you use and how you use them, including when you visit a website using a Google service for advertisement. In the past, Google stated in their Privacy Policy: <em>\u201cWe strike a reasonable balance between the competing pressures we face, such as the privacy of our users, the security of our systems and the need for innovation. We believe anonymizing IP addresses after 9 months and cookies in our search engine logs after 18 months strikes the right balance\u201d<\/em>. Today, these limitations of time are gone from the Privacy Policy, although <a href=\"http:\/\/support.google.com\/accounts\/bin\/answer.py?hl=en&answer=162743\">some pages<\/a> still acknowledge this. So we must conclude that Google has decided to stop trying to find the right balance between privacy of users and their own needs."
+      "tldr": "Google collects a lot of information about the services you use and how you use them, including when you visit a website using a service for advertisement. In the past, Google stated in their Privacy Policy: <em>\u201cWe strike a reasonable balance between the competing pressures we face, such as the privacy of our users, the security of our systems and the need for innovation. We believe anonymizing IP addresses after 9 months and cookies in our search engine logs after 18 months strikes the right balance\u201d<\/em>. Today, these limitations of time are gone from the Privacy Policy, although <a href=\"http:\/\/support.google.com\/accounts\/bin\/answer.py?hl=en&answer=162743\">some pages<\/a> still acknowledge this. So we must conclude that Google has decided to stop trying to find the right balance between privacy of users and their own needs."
 	  },
   "no right to leave the service": {
       "binding": true,
@@ -641,12 +581,6 @@ var tosdrReference = {
       "score": 60,
       "tldr": "SoundCloud collects data that you provide, but also <a href=\"http:\/\/soundcloud.com\/pages\/privacy#collection\">automatically<\/a>. Information collected about you is only used for a list of purposes which are reasonable. Your data is not shared with any third-party, except for the features you use."
 	  },
-  "may sell your data in merger": {
-      "binding": true,
-      "point": "bad",
-      "score": 20,
-      "tldr": "SoundCloud \u201cWe may disclose your personal information to any person or company that acquires all or substantially all of the assets or business of SoundCloud, or on a merger of our business, or in the event of our insolvency. \u201d"
-	  },
   "you have control over licensing options": {
       "binding": true,
       "point": "good",
@@ -771,55 +705,55 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 35,
-      "tldr": "Twitter can change the terms at any time when they see fit. They give notification, in their sole disretion, via an @Twitter update or via email. In September 2009, Twitter considerably changed the terms for the copyright license and only gave a very short notice, only a few hours before the changes applied."
+      "tldr": "The company can change the terms at any time when they see fit. They give notification, in their sole disretion."
 	  },
   "requires first-party cookies": {
       "binding": true,
       "point": "neutral",
       "score": 10,
-      "tldr": "Twitter is transparent about using session cookies and persistant cookies. But Twitter does not require cookies for most of the service to function. Remember that cookies are files on your computer: you can control and disable them."
+      "tldr": "The company is transparent about using session cookies and persistant cookies. But the company does not require cookies for most of the service to function. Remember that cookies are files on your computer: you can control and disable them."
 	  },
   "tracking data deleted after 10 days and opt-out": {
       "binding": true,
       "point": "good",
       "score": 80,
-      "tldr": "Twitter widgets on third-party websites collect <a href='https:\/\/support.twitter.com\/articles\/20169421#' title='Tailored Suggestions'>data about you<\/a>. The data is kept a maximum of 10 days. Also, <strong>you can opt-out completely<\/strong> by enabling \u201cDo-Not-Track\u201d. <a href='https:\/\/support.twitter.com\/groups\/33-report-abuse-or-policy-violations\/topics\/148-policy-information\/articles\/20169453-twitter-supports-do-not-track#'>See how<\/a>."
+      "tldr": "The company widgets on third-party websites collect <a href='https:\/\/support.twitter.com\/articles\/20169421#' title='Tailored Suggestions'>data about you<\/a>. The data is kept a maximum of 10 days. Also, <strong>you can opt-out completely<\/strong> by enabling \u201cDo-Not-Track\u201d. <a href='https:\/\/support.twitter.com\/groups\/33-report-abuse-or-policy-violations\/topics\/148-policy-information\/articles\/20169453-twitter-supports-do-not-track#'>See how<\/a>."
 	  },
   "sets third-party cookies and\/or ads": {
       "binding": true,
       "point": "bad",
       "score": 10,
-      "tldr": "Twitter uses third-party services that may collect your information, using cookies for instance. Twitter uses Google Analytics."
+      "tldr": "The company uses third-party services that may collect your information, using cookies for instance. the company uses Google Analytics."
 	  },
   "archives provided": {
       "binding": true,
       "point": "good",
       "score": 10,
-      "tldr": "At https:\/\/twitter.com\/tos\/previous you can see previous versions of Twitter's terms"
+      "tldr": "You can see previous versions of the company's terms."
 	  },
   "your content stays licensed": {
       "binding": true,
       "point": "bad",
       "score": 25,
-      "tldr": "Even if you deactive your account or if your account is closed, Twitter still has all the rights on your Content (the copyright license survives termination).  However, after 30 days Twitter begins to delete your account."
+      "tldr": "Even if you deactive your account or if your account is closed, the company still has all the rights on your Content (the copyright license survives termination).  However, after 30 days the company begins to delete your account."
 	  },
   "very broad": {
       "binding": true,
       "point": "bad",
       "score": 80,
-      "tldr": "The copyright license is very broad with almost no limitations, which goes beyond the requirements to run the service. It includes right for Twitter to license to others (\u201csublicense\u201d)."
+      "tldr": "The copyright license is very broad with almost no limitations, which goes beyond the requirements to run the service. It includes right for the company to license to others (\u201csublicense\u201d)."
 	  },
   "they take credit for your content": {
       "binding": true,
       "point": "blocker",
       "score": 100,
-      "tldr": "Twitpic has deals with partners to use your content without giving you credit. Twitpic's partners \u201care required to [\u2026] attribute credit to Twitpic as the source\u201d."
+      "tldr": "The company has deals with partners to use your content without giving you credit. The company's partners \u201care required to [\u2026] attribute credit to the company as the source\u201d."
 	  },
   "they can license to third parties": {
       "binding": true,
       "point": "bad",
       "score": 85,
-      "tldr": "The copyright license goes beyond the requirement to operate the service and includes distribution on twitpic and by \u201caffiliated partners\u201d of twitpic such as media agencies."
+      "tldr": "The copyright license goes beyond the requirement to operate the service and includes distribution on the company and by \u201caffiliated partners\u201d of the company such as media agencies."
 	  },
   "court of law is in location X": {
       "binding": true,
@@ -837,7 +771,7 @@ var tosdrReference = {
       "binding": true,
       "point": "bad",
       "score": 50,
-      "tldr": "You cannot sue Twitpic for something that has happened more than one year ago. "
+      "tldr": "You cannot sue the company for something that has happened more than one year ago. "
 	  },
   "pseudonym not allowed (not because of user-to-user trust)": {
       "binding": true,
@@ -1031,7 +965,7 @@ var tos = getParam('search');
 			// Submit to Sprint.ly
 			$.ajax({
 				type: 'POST',
-				url: 'https://sprint.ly/api/products/26087/items.json',
+				url: 'https://d84f311f-619fec6b2bb0.my.apitools.com/',
 				data: {
 					type: 'defect',
 					title: 'User Feedback '+Date.now(),
@@ -1097,7 +1031,7 @@ function analyze(tos){
 	$('#link2results').hide();
 	$('#results').empty();
 	$('#wrap').addClass('loading');
-	$.getJSON('http://aphelionz.koding.io:3000/?url='+tos).done(function(data){
+	$.getJSON('https://736bbf4d-619fec6b2bb0.my.apitools.com/?url='+tos).done(function(data){
 		console.log(data);
 		$('#results').empty();
 			$.each(data,function(){
